@@ -1,0 +1,103 @@
+/* CSS cho các hộp */
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 234, 255);
+    border: 5px solid black;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.box1 {
+    top: 50px;
+    left: 50px;
+}
+
+.box2 {
+    top: 150px;
+    left: 150px;
+}
+
+.box3 {
+    top: 250px;
+    left: 250px;
+    border-color: rgb(7, 218, 70);
+}
+
+/* CSS cho phần container */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+    position: relative;
+}
+
+.container {
+    width: 35%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.container .header {
+    background-color: #1799ad;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    height: 90px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.container .content {
+    padding: 20px;
+}
+
+.container .content h2 {
+    margin-top: 0;
+}
+
+.container .content p {
+    line-height: 1.6;
+}
+
+/* CSS cho phần .rounded-container */
+.rounded-container {
+border-radius: 10px; /* Bo góc khối */
+overflow: hidden; /* Đảm bảo rằng các góc bo tròn không bị cắt */
+box-shadow: 0 0 10px rgba(3, 2, 2, 0.6); /* Tạo hiệu ứng bóng */
+width: px;
+margin: 0 auto; /* Canh giữa khối */
+background-color: white; /* Optional: background color for better visibility */
+}
+.header {
+background-color: black;
+color: white;
+padding: 10px;
+font-size: 1em;
+text-align: center; /* Center text in header */
+}
+.content {
+padding: 20px;
+}
+a {
+text-decoration: none;
+color:blue; /* Optional: color for links */
+}
+ul {
+list-style-type: square; /* Define the bullet style */
+padding-left: 20px; /* Add some padding for better visual */
+}
+li {
+margin: 5px 0; /* Add space between list items */
+
+}
